@@ -4,7 +4,7 @@
     font-family: 'inter';
     font-weight: 400;
     font-size: 32px;
-    line-height: 150px;
+    line-height: 150%;
 
 }
 
@@ -12,33 +12,27 @@
 
     padding-top: 10px;
     margin-left: 10px;
-    width: 10px;
+    width: 10%;
     
 }
-
 
 main{
 
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 50%;
     margin-left: 80px;
 
 }
  .text-area {
 
       border: none;
-      color: aqua;
+      color: rgb(15, 17, 17);
       margin-top: 90px;
       text-transform: lowercase;
 
 
  }
- ::placeholder {
-
-    color: #0A3871;
-
- }
-
+ ::placeholder { color: #0A3871;}
  .text-area:focus {
 
     outline: none;
@@ -65,17 +59,18 @@ main{
  .botones {
 
     display: flex;
-    margin-top: 18px;
+    margin-top: 28px;
  }
 
- .btn-encriptar {
+ .btn-encriptador {
 
     background-color: darkgreen;
-    border: 1px solid darkgreen;
+    border: 1px solid rgb(13, 14, 13);
     border-radius: 24px;
     color: white;
     cursor: pointer;
     height: 67px;
+    margin-left: 30px;
     width: 328px;
 
 
@@ -90,10 +85,10 @@ main{
     width: 328px;
 }
 .copiar {
-
+    background-color: darkgreen;
     border: 1px solid darkgreen;
     border-radius: 24px;
-    color: darkgreen;
+    color: rgb(241, 248, 241);
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
@@ -103,7 +98,7 @@ main{
     
 }
 
-h6 {
+.informacion {
     color: black;
     font-size: 18px;
     
