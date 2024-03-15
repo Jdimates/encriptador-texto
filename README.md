@@ -3,6 +3,7 @@
 
 
 - estado del proyecto en construcción
+-se agrgaron los estilos css
   
 
 
