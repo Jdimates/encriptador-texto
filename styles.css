@@ -23,7 +23,7 @@ main{
     margin-left: 80px;
 
 }
- .text-area {
+ .text-area{
 
       border: none;
       color: rgb(15, 17, 17);
@@ -32,13 +32,13 @@ main{
 
 
  }
- ::placeholder { color: #0A3871;}
- .text-area:focus {
+ ::placeholder{ color: #0A3871;}
+ .text-area:focus{
 
     outline: none;
  }
 
- .mensaje {
+ .mensaje{
 
     background: white;
     background-image: url(/imagenes/Muñeco.png);
@@ -52,17 +52,17 @@ main{
     position: fixed;
     
  }
- .mensaje:focus {
+ .mensaje:focus{
     outline: none;
  }
 
- .botones {
+ .botones{
 
     display: flex;
     margin-top: 28px;
  }
 
- .btn-encriptador {
+ .btn-encriptador{
 
     background-color: darkgreen;
     border: 1px solid rgb(13, 14, 13);
@@ -75,7 +75,7 @@ main{
 
 
  }
-.btn-desencriptar {
+.btn-desencriptar{
     background: #d8d8d8;
     border: 1px solid darkgreen;
     border-radius: 24px;
@@ -84,7 +84,7 @@ main{
     height: 67px;
     width: 328px;
 }
-.copiar {
+.copiar{
     background-color: darkgreen;
     border: 1px solid darkgreen;
     border-radius: 24px;
@@ -98,7 +98,7 @@ main{
     
 }
 
-.informacion {
+.informacion{
     color: black;
     font-size: 18px;
     
